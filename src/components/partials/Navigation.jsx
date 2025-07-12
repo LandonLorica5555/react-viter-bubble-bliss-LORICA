@@ -11,7 +11,7 @@ const Navigation = () => {
   return (
     <>
       <nav className="bg-white text-black p-4 sticky top-0 z-50 shadow-md">
-        <div className="container mx-auto flex justify-between items-center">
+        <div className="container px-10 flex justify-between items-center">
           <div className="flex items-center space-x-2">
             <h1 className="text-2xl font-bold bg-gradient-to-r from-purple-500 to-pink-500 bg-clip-text text-transparent">
               Bubble Bliss
