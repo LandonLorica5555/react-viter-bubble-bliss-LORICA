@@ -5,7 +5,7 @@ const Banner = () => {
     <>
       <section id='home' className="py-20 bg-pink-100">
         <div className="container">
-            <div className="grid grid-cols-1 md:grid-cols-2 items-center">
+            <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-4">
                 <div className="">
                     <h1 className="text-4xl text-black font-bold mb-4">Discover the <span className="text-4xl font-bold bg-gradient-to-r from-purple-500 to-pink-500 bg-clip-text text-transparent mb-4">Joy</span> of Milk Tea </h1>
                     <p className="mb-6">Creamy, sweet, and refreshing - our milk tea will transport you to flavor paradise with every sip.</p>
