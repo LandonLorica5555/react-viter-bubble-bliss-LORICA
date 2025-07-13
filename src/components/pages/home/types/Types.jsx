@@ -3,11 +3,11 @@ import React from 'react'
 const Types = () => {
   return (
     <>
-        <section className="py-10 px-24">
-            <div className="container text-center">
+        <section id="types" className="py-10">
+            <div className="container text-center mx-auto px-4">
                 <p className="text-4xl text-black font-bold mb-6">Popular <span className="text-4xl font-bold bg-gradient-to-r from-purple-500 to-pink-500 bg-clip-text text-transparent">Milk Tea</span> Types</p>
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-                    <div className="bg-pink-100 h-52 w-[30rem] rounded-2xl shadow-md p-6 flex flex-col items-center">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 justify-items-center">
+                    <div className="bg-pink-100 h-52 w-full rounded-2xl shadow-md p-6 flex flex-col items-center">
                         <div className="bg-pink-300/40 size-16 relative rounded-full mb-4">
                             <p className="text-4xl items-center absolute top-2.5 left-2">🥛</p>
                         </div>
@@ -17,7 +17,7 @@ const Types = () => {
                         </div>
                         
                     </div>
-                    <div className="bg-pink-100 h-52 w-[30rem] rounded-2xl shadow-md p-6 flex flex-col items-center">
+                    <div className="bg-pink-100 h-52 w-full rounded-2xl shadow-md p-6 flex flex-col items-center">
                         <div className="bg-purple-300/40 size-16 relative rounded-full mb-4">
                             <p className="text-4xl items-center absolute top-2 left-2">🍯</p>
                         </div>
@@ -27,7 +27,7 @@ const Types = () => {
                         </div>
                         
                     </div>
-                    <div className="bg-pink-100 h-52 w-[30rem] rounded-2xl shadow-md p-6 flex flex-col items-center">
+                    <div className="bg-pink-100 h-52 w-full rounded-2xl shadow-md p-6 flex flex-col items-center">
                         <div className="bg-yellow-300/40 size-16 relative rounded-full mb-4">
                             <p className="text-4xl items-center absolute top-1.5 left-2">🍵</p>
                         </div>
