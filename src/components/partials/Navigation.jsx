@@ -79,7 +79,7 @@ const Navigation = () => {
             Home
           </a>
           <a
-            href="#ypes"
+            href="#types"
             className="hover:bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-clip-text hover:text-transparent font-semibold transition"
             onClick={() => setIsMenuOpen(false)}
           >

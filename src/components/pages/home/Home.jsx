@@ -5,6 +5,7 @@ import Types from './types/Types'
 import Toppings from './toppings/Toppings'
 import Benefits from './benefits/Benefits'
 import Footer from '../../partials/Footer'
+import Contact from './contact/Contact'
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
       <Types />
       <Toppings />
       <Benefits />
+      <Contact />
       <Footer />
     </>
   )
