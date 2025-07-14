@@ -4,6 +4,7 @@ import Banner from './banner/Banner'
 import Types from './types/Types'
 import Toppings from './toppings/Toppings'
 import Benefits from './benefits/Benefits'
+import Footer from '../../partials/Footer'
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <Types />
       <Toppings />
       <Benefits />
+      <Footer />
     </>
   )
 }
